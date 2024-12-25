@@ -2,6 +2,10 @@
 
 Proyek ini adalah implementasi berbasis Python untuk aplikasi pembelajaran mesin pada klasifikasi citra. Proyek ini menggunakan model CNN yang telah dilatih sebelumnya (VGG16 dan VGG19) untuk mengklasifikasikan gambar ke dalam kategori yang berbeda.
 
+## 📂 Dataset
+
+Dataset yang digunakan dalam proyek ini diambil dari Kaggle. Dataset ini berjudul **DiseaseClassifier: Money Plant Dataset** dan dapat diakses melalui [tautan berikut](https://www.kaggle.com/datasets/mdhasanahmad/diseaseclassifier-money-plant-dataset).
+
 ## 📂 Struktur Proyek
 
 ```
@@ -47,7 +51,25 @@ requirements.txt                       # Dependensi Python
    pip install -r requirements.txt
    ```
 
+
 ## 🚀 Penggunaan
+### Melatih Model
+Jika Anda ingin melatih model sendiri, Anda dapat melakukannya di Colab atau di lingkungan lokal Anda dengan mengikuti langkah-langkah di bawah ini.
+
+1. **Melatih model VGG16:**
+   - Buka file `UAP_VGG16.ipynb` di Jupyter Notebook atau di Google Colab.
+   - Jalankan setiap sel untuk melatih model.
+
+2. **Melatih model VGG19:**
+   - Buka file `UAP_VGG19.ipynb` di Jupyter Notebook atau di Google Colab.
+   - Jalankan setiap sel untuk melatih model.
+
+   **Catatan:** Jika Anda lebih memilih untuk tidak menjalankan notebook secara lokal, Anda dapat menjalankannya langsung di [Google Colab](https://colab.research.google.com/). Cukup unggah file `.ipynb` dan jalankan di sana.
+
+### Menggunakan Model yang Telah Dilatih
+Jika Anda tidak ingin melatih model, Anda dapat menggunakan model yang sudah dilatih dan disimpan di folder **`model/`**. Anda bisa mengunduh model yang sudah dilatih dari [Google Drive](https://drive.google.com/drive/folders/1K4qxh9spP0Ubu6TguFoUPVIOV0PCEx7a) dan menyimpannya di folder `model/` dengan nama file `.keras`.
+
+Setelah mengunduh model, Anda dapat langsung menjalankan aplikasi klasifikasi citra menggunakan model tersebut.
 
 ### Menjalankan Aplikasi
 Skrip utama aplikasi adalah `app.py`. Jalankan untuk mengklasifikasikan gambar menggunakan model yang telah dilatih sebelumnya:
@@ -55,19 +77,6 @@ Skrip utama aplikasi adalah `app.py`. Jalankan untuk mengklasifikasikan gambar m
 ```bash
 python web/app.py
 ```
-
-### Melatih Model
-Untuk melatih model, gunakan file Jupyter Notebook yang ada di folder `notebooks`:
-
-1. **Melatih model VGG16:**
-   - Buka file `UAP_VGG16.ipynb` di Jupyter Notebook.
-   - Jalankan setiap sel untuk melatih model.
-
-2. **Melatih model VGG19:**
-   - Buka file `UAP_VGG19.ipynb` di Jupyter Notebook.
-   - Jalankan setiap sel untuk melatih model.
-
-Hasil pelatihan model akan disimpan sebagai file yang dapat digunakan untuk klasifikasi.
 
 ## 📊 Hasil Pelatihan
 
@@ -111,10 +120,6 @@ Proyek ini menggunakan dua arsitektur CNN yang telah dilatih sebelumnya:
 
 Model dilatih menggunakan dataset gambar tanaman uang (money plants) untuk mengklasifikasikan jenis-jenis tanaman tersebut.
 
-## 📂 Dataset
+## 👨‍💻 Author
 
-Dataset yang digunakan dalam proyek ini diambil dari Kaggle. Dataset ini berjudul **DiseaseClassifier: Money Plant Dataset** dan dapat diakses melalui [tautan berikut](https://www.kaggle.com/datasets/mdhasanahmad/diseaseclassifier-money-plant-dataset).
-
-## 🔗 Model yang Dilatih
-
-Model yang telah dilatih disimpan dalam format `.keras`. Anda dapat mengunduh model-model tersebut melalui [tautan ini](https://drive.google.com/drive/folders/1K4qxh9spP0Ubu6TguFoUPVIOV0PCEx7a).
+Proyek ini dikembangkan oleh **[Tarissa Rizky](https://github.com/tarissauwar)**.
