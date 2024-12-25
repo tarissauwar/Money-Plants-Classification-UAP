@@ -1,4 +1,4 @@
-# Money-Plants-Classification
+# 🌿 Money-Plants-Classification
 
 Proyek ini adalah implementasi berbasis Python untuk aplikasi pembelajaran mesin pada klasifikasi citra. Proyek ini menggunakan model CNN yang telah dilatih sebelumnya (VGG16 dan VGG19) untuk mengklasifikasikan gambar ke dalam kategori yang berbeda.
 
@@ -6,7 +6,7 @@ Proyek ini adalah implementasi berbasis Python untuk aplikasi pembelajaran mesin
 
 Dataset yang digunakan dalam proyek ini diambil dari Kaggle. Dataset ini berjudul **DiseaseClassifier: Money Plant Dataset** dan dapat diakses melalui [tautan berikut](https://www.kaggle.com/datasets/mdhasanahmad/diseaseclassifier-money-plant-dataset).
 
-## 📂 Struktur Proyek
+## 📚 Struktur Proyek
 
 ```
 notebooks/
