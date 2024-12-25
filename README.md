@@ -113,7 +113,7 @@ Model dilatih menggunakan dataset gambar tanaman uang (money plants) untuk mengk
 
 ## 📂 Dataset
 
-Dataset yang digunakan dalam proyek ini diambil dari Kaggle. Dataset ini berjudul **Disease Classifier for Money Plant** dan dapat diakses melalui [tautan berikut](https://www.kaggle.com/datasets/mdhasanahmad/diseaseclassifier-money-plant-dataset).
+Dataset yang digunakan dalam proyek ini diambil dari Kaggle. Dataset ini berjudul **DiseaseClassifier: Money Plant Dataset** dan dapat diakses melalui [tautan berikut](https://www.kaggle.com/datasets/mdhasanahmad/diseaseclassifier-money-plant-dataset).
 
 ## 🔗 Model yang Dilatih
 
