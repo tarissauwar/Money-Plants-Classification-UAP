@@ -71,12 +71,14 @@ Jika Anda tidak ingin melatih model, Anda dapat menggunakan model yang sudah dil
 
 Setelah mengunduh model, Anda dapat langsung menjalankan aplikasi klasifikasi citra menggunakan model tersebut.
 
-### Menjalankan Aplikasi
-Skrip utama aplikasi adalah `app.py`. Jalankan untuk mengklasifikasikan gambar menggunakan model yang telah dilatih sebelumnya:
+### Menjalankan Aplikasi Streamlit
+Skrip utama aplikasi adalah `app.py`. Untuk menjalankan aplikasi Streamlit, gunakan perintah berikut:
 
 ```bash
-python web/app.py
+streamlit run web/app.py
 ```
+
+Aplikasi ini akan berjalan di localhost dan dapat diakses melalui browser di alamat `http://localhost:8501`.
 
 ## 📊 Hasil Pelatihan
 
