@@ -74,8 +74,10 @@ Hasil pelatihan model akan disimpan sebagai file yang dapat digunakan untuk klas
 ### Model VGG16
 **Hasil Grafik Akurasi dan Loss:**
 ![image](https://github.com/user-attachments/assets/2b8916ca-3475-4c03-9a66-d78bdae46917)
+
 **Classification Report:**
 ![image](https://github.com/user-attachments/assets/ba4b0273-8207-43ab-819e-02aad7f2124a)
+
 **Confussion Matrix:**
 ![image](https://github.com/user-attachments/assets/4bac51bd-0dc7-4515-a4fb-b71e11b53167)
 
@@ -83,8 +85,10 @@ Hasil pelatihan model akan disimpan sebagai file yang dapat digunakan untuk klas
 ### Model VGG19
 **Hasil Grafik Akurasi dan Loss:**
 ![image](https://github.com/user-attachments/assets/4c5464c6-5196-4e30-a4db-148bf198f019)
+
 **Classification Report:**
 ![image](https://github.com/user-attachments/assets/cbbe7329-0653-4cf3-b223-9cdff1ddc0da)
+
 **Confussion Matrix:**
 ![image](https://github.com/user-attachments/assets/06c3bc9a-dd67-4513-8e99-d43c73a10f6a)
 
